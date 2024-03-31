@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif; /* Poppins font added */
+  background-color: rgb(99, 126, 118);
+  color: rgb(255, 239, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color: rgb(198, 151, 116);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.currency-converter-app {
+  padding: 20px;
+}
+
+.app-details {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.app-details img {
+  width: 100px;
+  height: 100px;
+}
+
+.app-title h2 {
+  font-size: 32px;
+  color: rgb(255, 239, 232);
+}
+
+.converter {
+  text-align: center;
+}
+
+.amount {
+  margin-bottom: 40px;
+}
+
+.amount h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.amount input[type="text"],
+.dropdowns-area select {
+  width: calc(100% - 30px);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(248, 223, 212);
+  color: rgb(99, 126, 118);
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.dropdowns-area select option {
+  color: gray;
+  background: white;
+}
+
+.result p {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+button {
+  padding: 15px 0;
+  font-size: 18px;
+  color: gray;
+  background-color: rgb(255, 239, 232);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
